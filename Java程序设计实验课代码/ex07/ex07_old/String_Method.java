@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @第一次完成的时间：
  * @time:2020年5月27日下午3:22:23
  * @第一次修改的时间：
- * @time:2020年5月29日下午3:29:37
+ * @time:2020年5月27日下午3:22:23
  * @修改原因：课堂测验，修改内容：
  */
 public class String_Method {
@@ -51,28 +51,9 @@ public class String_Method {
 			return false;
 	}
 
-	/* 实验7第二题第二小问改进：
-	 * 写一个方法，可以一个字符串中的一个字符全部替换为另一个字符串后再输出，
-	 * 比如字符串为“AB-C-ABC”，用“First”替换所有的A；
-	 * 用现成的String方法实现：
-	 * 	System.out.println("请输入一个字符串：");
-		String str3 = input.next();
-		System.out.println("初始的字符串为：" + str3);
-		System.out.println("你想要的替换上述字符串中的那个“字符”？");
-		String replaced = input.next();
-		System.out.println("您想替换成的字符或字符串是什么：");
-		String replaceSymbol = input.next();
-		System.out.println("替换后为：");//注：如果没找到上述的字符，则不进行替换
-		System.out.println(str3.replace(replaced, replaceSymbol));
-	 */
-	
-	
-	
-	
 	/*
 	 * 写一个方法，可以一个字符串中的一个字符全部替换为另一个字符串后再输出，
 	 *  比如字符串为“AB-C-ABC”，用“First”替换所有的A；
-	 *  以下为基本方法：
 	 */
 	public static void secondTest() {
 		System.out.println("请输入一个字符串：");
@@ -95,7 +76,7 @@ public class String_Method {
 		String replaced = input.next();
 		System.out.println("您想替换成的字符或字符串是什么：");
 		String replaceSymbol = input.next();
-		//替换（如果没找到上述的字符，则不进行替换）
+		//替换
 		for (int i = 0; i < str2.length; i++) {
 			if (str2[i].equals(replaced)) {
 				str2[i] = replaceSymbol;

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a1264bf-fbd0-4366-9fd3-867185a25395" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1dGvv6OKnN2VEqDa5TqnrICbiDJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="A03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A.A03" />
+      <module name="Java程序设计课程设计" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.A03" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a1264bf-fbd0-4366-9fd3-867185a25395" name="Default Changelist" comment="" />
+      <created>1592064471239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592064471239</updated>
+      <workItem from="1592064486641" duration="2022000" />
+      <workItem from="1592101922822" duration="226000" />
+      <workItem from="1592102174800" duration="462000" />
+      <workItem from="1592102667641" duration="199000" />
+      <workItem from="1592102894074" duration="438000" />
+      <workItem from="1592103358070" duration="1655000" />
+      <workItem from="1592105035783" duration="414000" />
+      <workItem from="1592105472676" duration="3183000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="595" y="353" key="#Notifications" timestamp="1592104348706">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="595" y="353" key="#Notifications/0.0.1462.864@0.0.1462.864" timestamp="1592104348706" />
+    <state x="478" y="300" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1592105442099">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="478" y="300" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1462.864@0.0.1462.864" timestamp="1592105442099" />
+    <state x="422" y="173" key="FileChooserDialogImpl" timestamp="1592113272816">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="422" y="173" key="FileChooserDialogImpl/0.0.1462.864@0.0.1462.864" timestamp="1592113272816" />
+    <state width="405" height="688" key="GridCell.Tab.0.bottom" timestamp="1592112133669">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="405" height="688" key="GridCell.Tab.0.bottom/0.0.1462.864@0.0.1462.864" timestamp="1592112133669" />
+    <state width="405" height="688" key="GridCell.Tab.0.center" timestamp="1592112133669">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="405" height="688" key="GridCell.Tab.0.center/0.0.1462.864@0.0.1462.864" timestamp="1592112133669" />
+    <state width="405" height="688" key="GridCell.Tab.0.left" timestamp="1592112133669">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="405" height="688" key="GridCell.Tab.0.left/0.0.1462.864@0.0.1462.864" timestamp="1592112133669" />
+    <state width="405" height="688" key="GridCell.Tab.0.right" timestamp="1592112133669">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="405" height="688" key="GridCell.Tab.0.right/0.0.1462.864@0.0.1462.864" timestamp="1592112133669" />
+    <state x="386" y="115" key="SettingsEditor" timestamp="1592113289734">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="386" y="115" key="SettingsEditor/0.0.1462.864@0.0.1462.864" timestamp="1592113289734" />
+    <state x="492" y="305" width="627" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1592103547417">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="492" y="305" width="627" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1462.864@0.0.1462.864" timestamp="1592103547417" />
+    <state x="394" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1592105424882">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="394" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1462.864@0.0.1462.864" timestamp="1592105424882" />
+  </component>
+</project>

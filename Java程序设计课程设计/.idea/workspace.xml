@@ -76,11 +76,11 @@
   </component>
   <component name="RunManager" selected="Application.A11">
     <configuration name="A03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A.A03" />
+      <option name="MAIN_CLASS_NAME" value="a_type.A03" />
       <module name="Java程序设计课程设计" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A.*" />
+          <option name="PATTERN" value="a_type.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="A05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A.A05" />
+      <option name="MAIN_CLASS_NAME" value="a_type.A05" />
       <module name="Java程序设计课程设计" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A.*" />
+          <option name="PATTERN" value="a_type.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="A11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A.A11" />
+      <option name="MAIN_CLASS_NAME" value="a_type.A11" />
       <module name="Java程序设计课程设计" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A.*" />
+          <option name="PATTERN" value="a_type.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

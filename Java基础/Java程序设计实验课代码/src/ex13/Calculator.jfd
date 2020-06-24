@@ -1,0 +1,40 @@
+JFDML JFormDesigner: "7.0.1.0.272" Java: "1.8.0_231" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp jp:::::x, seq {comp display:::p:498:p, space :0:0:x}, comp clean::l:::x}"
+			"$verticalGroup": "par l {seq l {comp display:::p:42:p, space u:::p, comp jp:::p:266:p, space :::x, comp clean:::p:49:p, space :::p}}"
+		} ) {
+			name: "jFrame"
+			"resizable": false
+			"visible": true
+			"background": new java.awt.Color( 255, 255, 255, 255 )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "display"
+				"background": new java.awt.Color( 158, 255, 158, 255 )
+				"horizontalAlignment": 4
+				"text": "0.0"
+				"enabled": false
+				"font": new java.awt.Font( "微软雅黑", 1, 27 )
+				"disabledTextColor": sfield java.awt.Color black
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+				"columns": 4
+				"rows": 4
+			} ) {
+				name: "jp"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "clean"
+				"text": "CE/C"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "cleanActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 246, 35 )
+			"size": new java.awt.Dimension( 400, 335 )
+		} )
+	}
+}

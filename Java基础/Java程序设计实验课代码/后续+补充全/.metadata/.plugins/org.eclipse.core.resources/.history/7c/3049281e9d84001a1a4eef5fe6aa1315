@@ -1,0 +1,56 @@
+package onlineTest;
+
+import java.awt.*;
+import java.awt.event.*;
+
+import javax.swing.*;
+public class Sum3 extends JFrame implements ActionListener{
+    JTextField inputOne=new JTextField(5);
+    JTextField inputTwo=new JTextField(5);
+    JTextField output=new JTextField(5);
+    JButton equal=new JButton("=");//定义下拉选项卡
+    JComboBox oper;
+public Sum3()
+    {
+            super("Sum3");
+            Container container=getContentPane();
+            container.setLayout(new FlowLayout());
+            JLabel aLabel=new JLabel("+");
+            String operater[]={"+","-","*","/"};
+            oper=new JComboBox(operater);//下拉选项
+            container.add(inputOne);
+            //container.add(aLabel);
+            container.add(oper);
+            container.add(inputTwo);
+            container.add(equal);
+            container.add(output);
+            inputOne.addActionListener(this);
+            inputTwo.addActionListener(this);
+            equal.addActionListener(this);
+            setSize(325,100);
+            setVisible(true);
+        
+    }
+    public void actionPerformed(ActionEvent e)//处理函数，事件监听器
+    {
+        double first,second;int sum=0;
+        String c;
+        c=(String) oper.getSelectedItem();//获取下拉框的值，并比较
+        first=Double.parseDouble(inputOne.getText());//获取数据inputone里的数据
+        second=Double.parseDouble(inputTwo.getText());//通过getText()这个函数方法来获得
+        if(c.equals("+"))
+        sum=(int)first+(int)second;
+        else if(c.equals("-"))
+            sum=(int)first-(int)second;
+        else if(c.equals("*"))
+            sum=(int)first*(int)second;
+        else if(c.equals("/"))
+            sum=(int)first/(int)second;
+            output.setText(String.valueOf(sum));//设置输出的值，通过setText（）来设置
+    }
+public static void main(String args[])
+    {
+        Sum3 application = new Sum3();
+        application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+}

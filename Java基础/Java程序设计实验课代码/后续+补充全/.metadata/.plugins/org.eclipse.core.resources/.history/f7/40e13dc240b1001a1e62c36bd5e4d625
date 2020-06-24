@@ -1,0 +1,13 @@
+package ex14;
+
+public class TestUse {
+
+	public static void main(String[] args) {
+		UseThread ut = new UseThread();
+		ut.start();
+		UseRunnable ur = new UseRunnable();
+		new Thread(ur).start();
+
+	}
+
+}

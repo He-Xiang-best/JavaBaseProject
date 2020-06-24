@@ -1,0 +1,14 @@
+1586100991125	Convert local variable 'scannerObject' to field
+1586101032031	Convert local variable 'fi' to field
+1586150360971	Convert local variable 'input' to field
+1586154561446	Rename type 'P246_4_2'
+1586154589065	Delete element
+1586160236093	Rename type 'P246_6'
+1586164961941	Rename type 'Cam1'
+1586165814844	Delete element
+1586166402548	Delete element
+1586166408645	Delete element
+1586166430832	Rename type 'S'
+1586176403629	Convert local variable 'ch' to field
+1586176626678	Delete element
+1586176644753	Rename type 'New'

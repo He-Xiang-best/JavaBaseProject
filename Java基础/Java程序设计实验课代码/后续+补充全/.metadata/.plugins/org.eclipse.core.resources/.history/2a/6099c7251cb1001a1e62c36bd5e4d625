@@ -1,0 +1,40 @@
+JFDML JFormDesigner: "7.0.1.0.272" Java: "1.8.0_231" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {comp button4:::p:116:p, space ::148:x, comp button5:::p:116:p}, seq {comp button1:::p:116:p, space :::p, comp button2::::126:x, space :::p, comp button3:::p:122:p}, seq l {space :p:87:p, comp textField1:::p:216:p, space ::77:x}}"
+			"$verticalGroup": "par l {seq l {par b {comp button1::b:p:43:p, comp button3::b:p:43:p, comp button2::b:p:43:p}, space :::p, comp textField1:::p:38:p, space :::p, par b {comp button4::b:p:43:p, comp button5::b:p:43:p}, space :0:0:x}}"
+		} ) {
+			name: "this"
+			"visible": true
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "H"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "X"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "烊"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button5"
+				"text": "再见"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button4"
+				"text": "你好"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 140, 230 )
+			"size": new java.awt.Dimension( 306, 140 )
+		} )
+	}
+}

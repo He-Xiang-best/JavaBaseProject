@@ -1,0 +1,39 @@
+
+
+package ex12;
+
+import java.awt.*;
+import javax.swing.*;
+
+public class Calculate extends JFrame {
+	/**
+	 * Propose:
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public Calculate() {
+		initComponents();
+	}
+
+	private void initComponents() {
+		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
+		label1 = new JLabel();
+
+		//======== this ========
+		setTitle("\u52a0\u51cf\u4e58\u9664\u6e38\u8fd0\u7b97\u6e38\u620f\uff01\uff01");
+		setVisible(true);
+		Container contentPane = getContentPane();
+		contentPane.setLayout(new FlowLayout());
+
+		//---- label1 ----
+		label1.setText("text");
+		contentPane.add(label1);
+		pack();
+		setLocationRelativeTo(getOwner());
+		// JFormDesigner - End of component initialization  //GEN-END:initComponents
+	}
+
+	// JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
+	private JLabel label1;
+	// JFormDesigner - End of variables declaration  //GEN-END:variables
+}

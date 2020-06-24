@@ -17,23 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a1264bf-fbd0-4366-9fd3-867185a25395" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/.idea/GrepConsole.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/.idea/google-java-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/Java程序设计课程设计.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/out/production/Java程序设计课程设计/A/A03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/out/production/Java程序设计课程设计/A/A05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/out/production/Java程序设计课程设计/A/A11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/out/production/Java程序设计课程设计/A/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/out/production/Java程序设计课程设计/A/Y.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/out/production/Java程序设计课程设计/A/Z.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/src/A/A03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/src/A/A05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java基础/Java程序设计课程设计/src/A/A11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +139,9 @@
       <workItem from="1592409039831" duration="475000" />
       <workItem from="1592830971030" duration="312000" />
       <workItem from="1592831323892" duration="951000" />
+      <workItem from="1592832589001" duration="319000" />
+      <workItem from="1592834057348" duration="4000" />
+      <workItem from="1592834090140" duration="166000" />
     </task>
     <servers />
   </component>
@@ -216,14 +203,14 @@
       <screen x="0" y="0" width="1462" height="864" />
     </state>
     <state x="537" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1462.864@0.0.1462.864" timestamp="1592143167597" />
-    <state x="93" y="93" width="1276" height="678" key="DiffContextDialog" timestamp="1592832279733">
+    <state x="93" y="93" width="1276" height="678" key="DiffContextDialog" timestamp="1592832910224">
       <screen x="0" y="0" width="1462" height="864" />
     </state>
-    <state x="93" y="93" width="1276" height="678" key="DiffContextDialog/0.0.1462.864@0.0.1462.864" timestamp="1592832279733" />
-    <state x="422" y="173" key="FileChooserDialogImpl" timestamp="1592831159394">
+    <state x="93" y="93" width="1276" height="678" key="DiffContextDialog/0.0.1462.864@0.0.1462.864" timestamp="1592832910224" />
+    <state x="422" y="173" key="FileChooserDialogImpl" timestamp="1592834123709">
       <screen x="0" y="0" width="1462" height="864" />
     </state>
-    <state x="422" y="173" key="FileChooserDialogImpl/0.0.1462.864@0.0.1462.864" timestamp="1592831159394" />
+    <state x="422" y="173" key="FileChooserDialogImpl/0.0.1462.864@0.0.1462.864" timestamp="1592834123709" />
     <state width="1337" height="201" key="GridCell.Tab.0.bottom" timestamp="1592831283215">
       <screen x="0" y="0" width="1462" height="864" />
     </state>
@@ -252,6 +239,10 @@
       <screen x="0" y="0" width="1462" height="864" />
     </state>
     <state x="448" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1462.864@0.0.1462.864" timestamp="1592121395272" />
+    <state x="140" y="62" key="new project wizard" timestamp="1592834193715">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="140" y="62" key="new project wizard/0.0.1462.864@0.0.1462.864" timestamp="1592834193715" />
     <state x="475" y="145" width="627" height="614" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1592831696270">
       <screen x="0" y="0" width="1462" height="864" />
     </state>

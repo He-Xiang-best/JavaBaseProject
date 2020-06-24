@@ -1,0 +1,25 @@
+designer/bindingdialog.lasttab=2
+designer/chooser.addtocategoryid=custom
+designer/chooser.addtopalette=false
+designer/chooser.beanclass.history1=javax.swing.JPasswordField
+designer/forms/paletteexpanded-398056277=components,containers
+designer/forms/paletteexpanded-436375536=components,containers,windows,menus,jgoodies,binding,custom
+designer/forms/paletteexpanded-706973899=components,containers,windows,menus,jgoodies,binding,custom
+designer/forms/paletteexpanded-978584443=components,containers,windows
+designer/forms/paletteexpanded568915062=components,containers
+designer/forms/paletteexpanded79779796=components,containers
+designer/forms/selection-436375536=jFrame
+designer/forms/selection79779796=this
+designer/newcontainer.layoutmanager=java.awt.GridLayout
+designer/newform.superclass=javax.swing.JFrame
+designer/properties.expanded.category.expert=true
+designer/properties.expanded.category.readonly=true
+designer/properties.expanded.codegen=true
+eclipse.preferences.version=1
+license.filechooser.lastdirpath=C\:\\Eclipse\\eclipse
+license.filechooser.size=487, 319
+lookandfeel=com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+updates.infoshown=true
+updates.lastchecked=1592451057840
+updates.lastcheckedversion=7.0.1.0.272
+updates.version.7.0.2.0.298=type\=free;message\=<html>An update for JFormDesigner  is available\: <b>7.0.2</b> (Build&nbsp\\;298). <a href\="https\://www.formdev.com/jformdesigner/changelog/7/?piwik_campaign\=check-for-updates\#7_0_2">Change&nbsp\\;Log</a>&nbsp\\;&nbsp\\;<a href\="https\://www.formdev.com/jformdesigner/download/?piwik_campaign\=check-for-updates">Download</a></html>

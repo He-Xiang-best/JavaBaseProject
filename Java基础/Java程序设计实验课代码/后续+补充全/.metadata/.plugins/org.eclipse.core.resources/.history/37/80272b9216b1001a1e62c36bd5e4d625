@@ -1,0 +1,31 @@
+/*
+ * Created by JFormDesigner on Thu Jun 18 11:29:33 CST 2020
+ */
+
+package ex13;
+
+import java.awt.*;
+import javax.swing.*;
+
+/**
+ * @author Brainrain
+ */
+public class ButtonWindow extends JFrame {
+	public ButtonWindow() {
+		initComponents();
+	}
+
+	private void initComponents() {
+		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
+
+		//======== this ========
+		Container contentPane = getContentPane();
+		contentPane.setLayout(new BorderLayout());
+		pack();
+		setLocationRelativeTo(getOwner());
+		// JFormDesigner - End of component initialization  //GEN-END:initComponents
+	}
+
+	// JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
+	// JFormDesigner - End of variables declaration  //GEN-END:variables
+}

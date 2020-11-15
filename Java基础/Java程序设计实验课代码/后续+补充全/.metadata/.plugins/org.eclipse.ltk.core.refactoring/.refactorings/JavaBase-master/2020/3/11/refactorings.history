@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Convert local variable &apos;HelloWorld.main().input&apos; in &apos;HelloWorld.main()&apos; to field&#x0D;&#x0A;- Original project: &apos;JavaBase-master&apos;&#x0D;&#x0A;- Original element: &apos;HelloWorld.main().input&apos;&#x0D;&#x0A;- Field name: &apos;input&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;input&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;{HelloWorld.java" name="input" selection="328 30" stamp="1583845206027" static="true" version="1.0" visibility="2"/>
-</session>

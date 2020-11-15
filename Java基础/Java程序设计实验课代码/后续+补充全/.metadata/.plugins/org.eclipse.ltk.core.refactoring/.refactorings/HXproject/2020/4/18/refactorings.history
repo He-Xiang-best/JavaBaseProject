@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;Chapter2_3.java&apos; to &apos;hexiang04191315/src/ex03_P118&apos;&#x0D;&#x0A;- Original project: &apos;HXproject&apos;&#x0D;&#x0A;- Destination element: &apos;hexiang04191315/src/ex03_P118&apos;&#x0D;&#x0A;- Original element: &apos;chapterProgram.Chapter2_3.java&apos;" description="Copy compilation unit" destination="=hexiang04191315/src&lt;ex03_P118" element1="/src&lt;chapterProgram{Chapter2_3.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1588091237845" units="1" version="1.0"/>
-</session>

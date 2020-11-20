@@ -1,0 +1,96 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {par l {seq {space :p:14:p, par l {seq {comp label1:::p:102:p, space :::p, comp getStartTextField:::p:128:p, space :p:80:p, comp label2:::p:102:p, space :::p, comp getEndTextField:::p:142:p}, seq l {space :p:27:p, comp StartTransButton:::p:111:p, space :p:108:p, comp resetButton:::p:111:p, space :p:121:p, comp button3:::p:111:p}}}, comp scrollPane1:::p:674:p}, comp panel1:::::x}}"
+			"$verticalGroup": "par l {comp panel1:::::x, seq {comp scrollPane1:::p:356:p, space s:::p, par b {comp label1::b:p:33:p, comp getStartTextField::b:p::p, comp label2::b:p:33:p, comp getEndTextField::b:p::p}, space :::p, par b {comp StartTransButton::b:p:32:p, comp resetButton::b:p:32:p, comp button3::b:p:32:p}, space ::18:x}}"
+		} ) {
+			name: "this"
+			"title": "进制转换器"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {space :0:0:x}"
+				"$verticalGroup": "par l {space :0:463:x}"
+			} ) {
+				name: "panel1"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTable" ) {
+					name: "listTable"
+					"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector {
+						add( new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						} )
+					}, new java.util.Vector {
+						add( "数值" )
+						add( "十进制" )
+						add( "二进制" )
+						add( "三进制" )
+						add( "八进制" )
+						add( "十六进制" )
+					}, new java.util.Vector {
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+					}, new java.util.Vector {
+						add( false )
+						add( false )
+						add( false )
+						add( false )
+						add( false )
+						add( false )
+					}, new java.util.Vector {
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+					} )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "输入起始数值："
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "输入终止数值："
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "getStartTextField"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "getEndTextField"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "StartTransButton"
+				"text": "开始转换"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "transformAct", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "resetButton"
+				"text": "重置数据"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "resetActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "退出"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "exitButtonActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 145, 0 )
+			"size": new java.awt.Dimension( 675, 495 )
+		} )
+	}
+}

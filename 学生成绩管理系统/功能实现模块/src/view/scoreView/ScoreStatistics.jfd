@@ -1,0 +1,79 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l:::x}"
+			"$verticalGroup": "par l {comp panel1::l:::x}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :::p, comp scrollPane1::::736:x, space :::p}, seq l {space :p:276:p, comp label1:::p:193:p, space ::279:x}}"
+				"$verticalGroup": "par l {seq t {space :p:12:p, comp label1::::35:x, space :::p, comp scrollPane1:::p:449:p, space :::p}}"
+			} ) {
+				name: "panel1"
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+					add( new FormComponent( "javax.swing.JTable" ) {
+						name: "ClassScoreListTable"
+						"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector {
+							add( new java.util.Vector {
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+							} )
+							add( new java.util.Vector {
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+							} )
+						}, new java.util.Vector {
+							add( "班级编号" )
+							add( "总人数" )
+							add( "优秀人数" )
+							add( "优秀率" )
+							add( "不及格人数" )
+							add( "不及格率" )
+						}, new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						}, new java.util.Vector {
+							add( false )
+							add( false )
+							add( false )
+							add( false )
+							add( false )
+							add( false )
+						}, new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						} )
+					} )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "班级成绩统计情况"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 10, false )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 750, 540 )
+		} )
+	}
+}

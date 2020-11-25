@@ -1,0 +1,94 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp scrollPane1::t:::x, seq t {space :197:197:p, par l {seq l {comp label1:::p:93:p, space :::p, comp CourseNametextField:::p:146:p, space :p:26:p, comp searchCoursebutton:::p::p}, seq l {par l:::p {seq {comp label3:::p:85:p, space :::x, comp CourseIDtextField:::p:150:p}, seq {comp label2:::p:94:p, space s:::p, comp courseNametextField:::p:150:p}}, space :p:43:p, par l {comp button1:::p::p, comp button2:::p::p}}}, space ::132:x}}"
+			"$verticalGroup": "par l {seq {space :p:17:p, par b {comp searchCoursebutton::b:p::p, comp CourseNametextField::b:p::p, comp label1::b:p:26:p}, space s:::p, comp scrollPane1:::p:298:p, space ::10:x, par b {comp label3::b:p:26:p, comp CourseIDtextField::b:p::p, comp button2::b:p::p}, space ::10:x, par l {comp label2:::p:29:p, par b {comp courseNametextField::b:p::p, comp button1::b:p::p}}}}"
+		} ) {
+			name: "this"
+			"title": "课程查询"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "课程名称："
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "CourseNametextField"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "searchCoursebutton"
+				"text": "查询"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "searchCoursebuttonActionPerformed", true ) )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "courseMouseClicked", true ) )
+				add( new FormComponent( "javax.swing.JTable" ) {
+					name: "couseListTable"
+					"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector {
+						add( new java.util.Vector {
+							add( null )
+							add( null )
+						} )
+					}, new java.util.Vector {
+						add( "课程ID" )
+						add( "课程名称" )
+					}, new java.util.Vector {
+						add( null )
+						add( null )
+					}, new java.util.Vector {
+						add( false )
+						add( false )
+					}, new java.util.Vector {
+						add( null )
+						add( null )
+					} )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "couseListTableMouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "couseListTableMouseClicked", true ) )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "课程名称："
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "courseNametextField"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "课程ID："
+				"font": #SwingDerivedFont0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "CourseIDtextField"
+				"editable": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "删除"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "editCourseActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "修改"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "updateActionPerformed", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 710, 470 )
+		} )
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {space :0:710:x}"
+			"$verticalGroup": "par l {space :0:440:x}"
+		} ) {
+			name: "panel1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 30 )
+			"size": new java.awt.Dimension( 710, 440 )
+		} )
+	}
+}

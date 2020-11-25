@@ -1,0 +1,131 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp label1::t:::x}"
+			"$verticalGroup": "par l {comp label1::t::420:x}"
+		} ) {
+			name: "mainFrame"
+			"title": "学生成绩管理系统主界面"
+			"defaultCloseOperation": 3
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/成绩管理系统封面.png" )
+			} )
+			menuBar: new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "setting"
+					"text": "选项设置"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/Setting_choice/设 置.png" )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem7"
+						"text": "个人信息修改"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/Setting_choice/个人信息.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menuItem7ActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "backToLogin"
+						"text": "返回登入界面"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/Setting_choice/返回.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "backToLoginActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "exitSystem"
+						"text": "退出管理系统"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/Setting_choice/退出.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "exitSystemActionPerformed", true ) )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "stu_manage"
+					"text": "学生管理"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/Stu_manage/管理.png" )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem1"
+						"text": "添加学生"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/Stu_manage/增加.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "addStudentActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem2"
+						"text": "学生管理"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/Stu_manage/列表.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "StudentManageActionPerformed", true ) )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu1"
+					"text": "班级管理"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/Class_manage/班级管理.png" )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem4"
+						"text": "添加班级"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/Class_manage/增加.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menuItem4ActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem6"
+						"text": "班级管理"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/Class_manage/班级列表.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menuItem6ActionPerformed", true ) )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu3"
+					"text": "课程管理"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/grade_score/课程.png" )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem8"
+						"text": "添加课程"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/Stu_manage/增加.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "AddCouseActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem9"
+						"text": "课程列表"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/grade_score/课程2.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "CourseManageActionPerformed", true ) )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu2"
+					"text": "成绩管理"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/grade_score/成绩.png" )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem3"
+						"text": "成绩添加"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/Stu_manage/增加.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "AddScoreActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem5"
+						"text": "成绩列表"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/grade_score/课程列表.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "scoreAllActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem10"
+						"text": "成绩统计"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/MainView/grade_score/成绩 (1).png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "ClassScoreActionPerformed", true ) )
+					} )
+				} )
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 10, 0 )
+			"size": new java.awt.Dimension( 695, 490 )
+		} )
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {space :0:585:x}"
+			"$verticalGroup": "par l {space :0:395:x}"
+		} ) {
+			name: "panel1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 35 )
+			"size": new java.awt.Dimension( 585, 395 )
+		} )
+	}
+}

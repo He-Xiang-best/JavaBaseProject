@@ -1,0 +1,114 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l:::x}"
+			"$verticalGroup": "par l {comp panel1::l:::x}"
+		} ) {
+			name: "classControlFrm"
+			"title": "班级信息管理"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {par l {seq {space :p:106:p, comp classComboBox1:::p:141:p, space :p:27:p, comp searchClassNametextField1:::p:215:p, space :p:36:p, comp button1:::p::p}, par t:l::p {seq l {space :p:50:p, par l {comp label1:::p:94:p, comp label2:::p:78:p}, space u:::p, par l:::p {comp classNameTextField::::153:x, comp classIDTextField::::153:x}, space :p:82:p, par l:::p {comp label3::::94:x, comp confirmEditButton::::94:x}, space :::p, par l {comp classNumberTextField:::p:153:p, seq l {space :p:25:p, comp DeletInfoButton:::p:94:p, space :::x, comp resetButton:::p:94:p}}}, seq l {space :p:39:p, comp scrollPane1:::p:702:p}}}, space ::42:x}}"
+				"$verticalGroup": "par l {seq l {space :p:20:p, par l {comp classComboBox1::l:::x, seq l {comp searchClassNametextField1:::p:42:p, space :0:6:x}, comp button1::l:::x}, space :::p, comp scrollPane1:::p:315:p, space s:::p, par b {comp classNameTextField::b:p::p, comp label1::b:p:27:p, comp label3::b:p:27:p, comp classNumberTextField::b:p::p}, space s:::p, par l {comp classIDTextField:::p::p, comp label2::l:p:25:p, par b {comp confirmEditButton::b:p:34:p, comp DeletInfoButton::b:p:34:p, comp resetButton::b:p:34:p}}, space :p:31:p}}"
+			} ) {
+				name: "panel1"
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+					add( new FormComponent( "javax.swing.JTable" ) {
+						name: "classListTable"
+						"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector {
+							add( new java.util.Vector {
+								add( null )
+								add( null )
+								add( "" )
+							} )
+						}, new java.util.Vector {
+							add( "班级编号" )
+							add( "班级名称" )
+							add( "所属学院" )
+						}, new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+						}, new java.util.Vector {
+							add( false )
+							add( false )
+							add( false )
+						}, new java.util.Vector {
+							add( new com.jformdesigner.model.SwingTableColumn( null, 0, 0, 0, false ) )
+							add( new com.jformdesigner.model.SwingTableColumn( null, 0, 0, 0, false ) )
+							add( new com.jformdesigner.model.SwingTableColumn( null, 0, 0, 0, false ) )
+						} )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "classListTable1MouseClicked", true ) )
+					} )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "searchClassNametextField1"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "查询"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/ClassView/查询.png" )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "searchButton1ActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "classComboBox1"
+					"model": new javax.swing.DefaultComboBoxModel {
+						selectedItem: "全部"
+						addElement( "全部" )
+						addElement( "班级名称:" )
+						addElement( "班级编号:" )
+					}
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 10, false )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "班级名称:"
+					"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "班级编号:"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "classNameTextField"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "classIDTextField"
+					"editable": false
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "所属学院:"
+					"font": #SwingDerivedFont0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "classNumberTextField"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "confirmEditButton"
+					"text": "确认修改"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "confirmEditButtonActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "DeletInfoButton"
+					"text": "删除信息"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "deleteClassAct", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "resetButton"
+					"text": "重置信息"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "deleteClassAct", true ) )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "resetButtonActionPerformed", true ) )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 785, 550 )
+		} )
+	}
+}

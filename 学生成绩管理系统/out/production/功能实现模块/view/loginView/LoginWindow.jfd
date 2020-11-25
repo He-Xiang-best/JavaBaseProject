@@ -1,0 +1,82 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp loginPanel::l:::x}"
+			"$verticalGroup": "par l {seq l {comp loginPanel:::p::p, space :0:1:x}}"
+		} ) {
+			name: "loginFrame"
+			"title": "登录界面"
+			"defaultCloseOperation": 3
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :p:60:p, par t {seq {comp login:::p:102:p, space ::62:x, comp reset:::p:102:p, space :p:56:p, comp exit:::p:102:p}, seq {par l {comp password:::p::p, comp userName:::p::p, comp identify:::p::p}, space :p:32:p, par l {comp inputNameText::l::272:x, comp passwordField1::l::272:x, comp IdentifyComboBox::l::272:x}}}, space :p:84:p}, seq t {space :0:125:x, comp loginTitel:::p:348:p, space :p:95:p}}"
+				"$verticalGroup": "par l {seq l {space :p:16:p, comp loginTitel:::p:36:p, space :p:33:p, par b {comp inputNameText::b:p:32:p, comp userName::b:p::p}, space s:::p, par b {comp passwordField1::b::32:x, comp password::b:p::p}, space s:::p, par b {comp IdentifyComboBox::b::32:x, comp identify::b:p::p}, space s:::p, par b {comp exit::b:p:40:p, comp login::b:p:40:p, comp reset::b:p:40:p}, space ::13:x}}"
+			} ) {
+				name: "loginPanel"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "loginTitel"
+					"text": "学生成绩管理系统登入界面"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 10, false )
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/LoginView/成绩.png" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "userName"
+					"text": "用户名称："
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/LoginView/用户名.png" )
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "inputNameText"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "password"
+					"text": "登入密码："
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/LoginView/密码.png" )
+				} )
+				add( new FormComponent( "javax.swing.JPasswordField" ) {
+					name: "passwordField1"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "identify"
+					"text": "身份类型："
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/LoginView/分期－身份类别.png" )
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "IdentifyComboBox"
+					"model": new javax.swing.DefaultComboBoxModel {
+						selectedItem: "管理员"
+						addElement( "管理员" )
+						addElement( "教师" )
+						addElement( "学生" )
+					}
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "login"
+					"text": "登入"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/LoginView/登入.png" )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "loginActionPerformed", true ) )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "loginActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "reset"
+					"text": "重置"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/LoginView/重置.png" )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "resetActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "exit"
+					"text": "退出"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/image/LoginView/退出.png" )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "exitActionPerformed", true ) )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 10, 5 )
+			"size": new java.awt.Dimension( 570, 330 )
+		} )
+	}
+}

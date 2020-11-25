@@ -1,0 +1,131 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l:::x}"
+			"$verticalGroup": "par l {comp panel1::l:::x}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {par l {seq l {space :p:195:p, comp coursecomboBox:::p:134:p, space :p:48:p, comp searchbutton:::p::p, space :p:68:p, comp allScore:::p::p}, seq l {space :p:14:p, comp scrollPane1:::p:798:p}, seq l {space :p:95:p, par l {seq l {comp searchHighbutton:::p::p, space :p:78:p, comp searchLowbutton:::p::p, space :p:77:p, comp totalbutton:::p::p}, seq l {par l {seq t {comp label2:::p::p, space :::p}, seq l {comp label1:::p::p, space :p:15:p}}, par t:::p {comp stuIDtextField::::114:x, comp stuNametextField::::114:x}, space :p:96:p, par l {comp label3:::p::p, comp label4:::p::p}, space :::p, par l:::p {comp gradetextField::::114:x, comp courseNametextField::::114:x}}}, space :p:79:p, par l {comp button1:::p::p, comp averagebutton:::p::p, comp button2::l:p::p}}}, space ::21:x}}"
+				"$verticalGroup": "par l {seq l {space :p:22:p, par b {comp allScore::b:p::p, comp searchbutton::b:p::p, comp coursecomboBox::b:p::p}, space s:::p, comp scrollPane1:::p:289:p, space u:::p, par b {comp label1::b:p::p, comp stuIDtextField::b:p::p, comp label3::b:p::p, comp button1::b:p::p, comp courseNametextField::b:p::p}, space s:::p, par b {comp label2::b:p::p, comp stuNametextField::b:p::p, comp label4::b:p::p, comp gradetextField::b:p::p, comp button2::b:p::p}, space ::32:x, par b {comp searchHighbutton::b:p::p, comp averagebutton::b:p::p, comp totalbutton::b:p::p, comp searchLowbutton::b:p::p}, space :p:29:p}}"
+			} ) {
+				name: "panel1"
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+					add( new FormComponent( "javax.swing.JTable" ) {
+						name: "scoreListTable"
+						"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector {
+							add( new java.util.Vector {
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+							} )
+						}, new java.util.Vector {
+							add( "学号" )
+							add( "姓名" )
+							add( "班级" )
+							add( "成绩" )
+						}, new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						}, new java.util.Vector {
+							add( false )
+							add( false )
+							add( false )
+							add( false )
+						}, new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						} )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "scoreListTableMouseClicked", true ) )
+					} )
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "coursecomboBox"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "searchbutton"
+					"text": "查询"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "searchbuttonActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "allScore"
+					"text": "成绩清单"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "allScoreActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "searchHighbutton"
+					"text": "最高分查询"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "searchHighbuttonActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "searchLowbutton"
+					"text": "最低分查询"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "searchLowbuttonActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "totalbutton"
+					"text": "总成绩排序"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "totalbuttonActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "averagebutton"
+					"text": "平均分排序"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "averagebuttonActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "学号:"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "stuIDtextField"
+					"editable": false
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "姓名："
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "stuNametextField"
+					"editable": false
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "科目："
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "成绩："
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "gradetextField"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "修改成绩"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "editInfoActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "删除成绩"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "deletActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "courseNametextField"
+					"editable": false
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 835, 550 )
+		} )
+	}
+}

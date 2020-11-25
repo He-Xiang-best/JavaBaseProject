@@ -1,0 +1,78 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {comp panel1:::p:523:p, space :0:0:x}}"
+			"$verticalGroup": "par l {comp panel1::l:::x}"
+		} ) {
+			name: "this"
+			"title": "成绩添加"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:72:p, par l:::p {seq l {comp label1:::p:95:p, space u:::p, comp stu_name_textField:::::x}, seq l {comp label2:::p:95:p, space u:::p, comp stu_id_textField:::::x}, seq l {comp label3:::p:95:p, space u:::p, comp classIDcomboBox:::::x}, seq t {comp label4:::p:95:p, space u:::p, comp courseNameConboBox:::::x}, seq t {par l {comp label5:::p:95:p, comp button1:::p::p}, space u:::p, par l {comp stu_score_textField:::::x, seq {space :p:25:p, comp button2:::p::p, space :p:62:p, comp button3:::p::p}}}}, space :p:149:p}}"
+				"$verticalGroup": "par l {seq l {space :p:37:p, par b {comp label1::b:p:29:p, comp stu_name_textField::b:p::p}, space s:::p, par b {comp label2::b:p:29:p, comp stu_id_textField::b:p::p}, space :p:28:p, par b {comp label3::b:p:29:p, comp classIDcomboBox::b:p::p}, space :p:27:p, par b {comp label4::b:p:29:p, comp courseNameConboBox::b:p::p}, space :p:30:p, par b {comp label5::b:p:29:p, comp stu_score_textField::b:p::p}, space :p:40:p, par b {comp button1::b:p::p, comp button2::b:p::p, comp button3::b:p::p}, space ::44:x}}"
+			} ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "学生姓名："
+					"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "学生学号："
+					"font": #SwingDerivedFont0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "班级编号："
+					"font": #SwingDerivedFont0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "科目："
+					"font": #SwingDerivedFont0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "成绩："
+					"font": #SwingDerivedFont0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "stu_name_textField"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "stu_id_textField"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "stu_score_textField"
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "classIDcomboBox"
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "courseNameConboBox"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "确认"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "yesActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "重置"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "resetActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button3"
+					"text": "取消"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "cancelActionPerformed", true ) )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 525, 425 )
+		} )
+	}
+}

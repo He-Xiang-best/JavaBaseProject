@@ -276,7 +276,6 @@ public class ClassManageWindow {
                 //---- resetButton ----
                 resetButton.setText("\u91cd\u7f6e\u4fe1\u606f");
                 resetButton.addActionListener(e -> {
-			deleteClassAct(e);
 			resetButtonActionPerformed(e);
 		});
 

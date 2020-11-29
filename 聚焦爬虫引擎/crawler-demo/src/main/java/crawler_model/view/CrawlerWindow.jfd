@@ -1,0 +1,107 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space ::476:x, comp label1:::p:142:p, space :p:455:p}, seq l {space :::p, comp scrollPane1::::1061:x, space :::p}, seq l {space :p:29:p, comp label2:::p::p, space :::p, comp scrollPane2:::p:806:p, space ::124:x}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp label1:::p:39:p, space :::p, comp scrollPane1:::p:317:p, space s:::p, par b {comp label2::b:p:43:p, comp scrollPane2::b:p:201:p}, space ::15:x}}"
+		} ) {
+			name: "this"
+			"title": "爬虫小程序"
+			"defaultCloseOperation": 3
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "爬虫数据列表"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 10, false )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTable" ) {
+					name: "getItemListTable"
+					"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector {
+						add( new java.util.Vector {
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+							add( null )
+						} )
+					}, new java.util.Vector {
+						add( "商品ID" )
+						add( "商品名称" )
+						add( "商品质量" )
+						add( "商品简介" )
+						add( "商品原价" )
+						add( "商品现售价" )
+						add( "商品节约价格" )
+						add( "商品图片地址" )
+						add( "商品详情地址" )
+						add( "创建时间" )
+					}, new java.util.Vector {
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+					}, new java.util.Vector {
+						add( false )
+						add( false )
+						add( false )
+						add( false )
+						add( false )
+						add( false )
+						add( false )
+						add( false )
+						add( false )
+						add( false )
+					}, new java.util.Vector {
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+						add( null )
+					} )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "爬虫日志："
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 10, false )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane2"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "logTextArea"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1075, 650 )
+		} )
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {space :0:1070:x}"
+			"$verticalGroup": "par l {space :0:610:x}"
+		} ) {
+			name: "panel1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 35 )
+			"size": new java.awt.Dimension( 1070, 610 )
+		} )
+	}
+}
